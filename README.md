@@ -1,14 +1,23 @@
 # prime-time
+##  Prime Number Multiplication Table
 
-A Clojure library designed to ... well, that part is up to you.
+Prints out a multiplication table for the first 10 prime numbers.
 
-## Usage
+## Development
 
-FIXME
 
-## License
+### Development Running 
 
-Copyright © 2017 FIXME
+`lein run`
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+### Testing
+
+`lein test`
+
+### Deployment
+
+`lein uberjar`
+
+#### Running Exacutable
+
+`java -jar prime-time-.*-SNAPSHOT-standalone.jar`
